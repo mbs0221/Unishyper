@@ -25,13 +25,13 @@ Unishyper: A Rust-based Unikernel Enhancing Reliability and Efficiency of Embedd
 
 ## Features
 
-1. Singal address space, singal priveledge level.
+1. Single address space, single privilege level.
 2. SMP support, multi-thread support.
 3. Network stack and file system support.
 4. Virtio drivers (virtio-net, virtio-blk).
 5. Terminal support.
 6. Unilib-fs support.
-7. Zone, thread grained memory isolation mechanism.
+7. Zone, thread-grained memory isolation mechanism.
 8. Rust-std support, with modified [rust-toolchain](https://gitee.com/unishyper/rust).
 9. Unwind based fault tolerance.
 10. Parts of [axdriver](https://github.com/rcore-os/arceos/tree/main/modules/axdriver) ported from [ArceOS](https://github.com/rcore-os/arceos) is suppported (bus-mmio), feature `'axdriver'` is required.
